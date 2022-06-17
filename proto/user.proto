@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package user;
+
+service UserService {
+  rpc FindFutureWalletInfo(FindFutureWalletInfoRequest) returns (FindFutureWalletInfoResponse) {}
+}
+
+message FutureWallet {
+  string uid = 1;
+  string address = 2;
+}
+
+message FindFutureWalletInfoRequest {
+  string address = 1;
+}
+
+message FindFutureWalletInfoResponse {
+  bool success = 1;
+  FutureWallet data = 2;
+  string message = 3;
+}
