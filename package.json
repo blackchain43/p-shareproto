@@ -1,0 +1,19 @@
+{
+  "name": "ma-shareproto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oauth2: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@github.com/hqphuoc/MA-shareproto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hqphuoc/MA-shareproto/issues"
+  },
+  "homepage": "https://github.com/hqphuoc/MA-shareproto#readme"
+}
